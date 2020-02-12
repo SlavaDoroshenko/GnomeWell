@@ -559,7 +559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789049746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.15, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1044820212}
@@ -1032,6 +1032,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c790147cec7afca47935f2969f4c95fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ropeSegmentPrefab: {fileID: 2324775786583953355, guid: fde3d7fe4a5ecbb49a3f8d42d4bfab96,
+    type: 3}
+  connectedObject: {fileID: 472576723}
+  maxRopeSegmentLength: 1
+  ropeSpeed: 4
 --- !u!120 &1618600901
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1050,7 +1055,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a6291851fa35e0a40b9c0cf89d1df061, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1081,8 +1086,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.076143146
-        value: 0.67342
+        time: 0.059568286
+        value: 0.15913397
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1158,7 +1163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618600899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2807997, y: 0.34142953, z: -2.0519872}
+  m_LocalPosition: {x: -0.05, y: 3.93, z: -2.0519872}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
